@@ -11,6 +11,18 @@ Summary: Find subfile in any binary stream
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/hachoir-subfile-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/hachoir-subfile-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/hachoir-subfile-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/hachoir-subfile-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/hachoir-subfile-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/hachoir-subfile-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hachoir-subfile/badges/version.svg)](https://anaconda.org/conda-forge/hachoir-subfile)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hachoir-subfile/badges/downloads.svg)](https://anaconda.org/conda-forge/hachoir-subfile)
+
 Installing hachoir-subfile
 ==========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `hachoir-subfile` available on you
 ```
 conda search hachoir-subfile --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/hachoir-subfile-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/hachoir-subfile-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/hachoir-subfile-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/hachoir-subfile-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/hachoir-subfile-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/hachoir-subfile-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hachoir-subfile/badges/version.svg)](https://anaconda.org/conda-forge/hachoir-subfile)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hachoir-subfile/badges/downloads.svg)](https://anaconda.org/conda-forge/hachoir-subfile)
 
 
 Updating hachoir-subfile-feedstock
