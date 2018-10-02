@@ -1,8 +1,8 @@
-{%set name = "hachoir-subfile" %}
-{%set version = "0.5.3" %}
-{%set compress_type = "tar.gz" %}
-{%set hash_type = "sha256" %}
-{%set hash_val = "b8e4933e566524804382c8f8a9a9b58a4e25ad24ebf75beb0da5d8705c61f0d6" %}
+{% set name = "hachoir-subfile" %}
+{% set version = "0.5.3" %}
+{% set compress_type = "tar.gz" %}
+{% set hash_type = "sha256" %}
+{% set hash_val = "b8e4933e566524804382c8f8a9a9b58a4e25ad24ebf75beb0da5d8705c61f0d6" %}
 
 package:
   name: {{ name|lower }}
