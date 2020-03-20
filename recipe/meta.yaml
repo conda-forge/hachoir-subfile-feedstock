@@ -1,7 +1,6 @@
 {% set name = "hachoir-subfile" %}
 {% set version = "0.5.3" %}
 {% set compress_type = "tar.gz" %}
-{% set hash_type = "sha256" %}
 {% set hash_val = "b8e4933e566524804382c8f8a9a9b58a4e25ad24ebf75beb0da5d8705c61f0d6" %}
 
 package:
@@ -11,12 +10,12 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ compress_type }}
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
-  {{ hash_type }}: {{ hash_val }}
+  sha256: {{ hash_val }}
 
 build:
   skip: True  # [py3k]
-  number: 1000
-  script: python setup.py install
+  number: 1001
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
